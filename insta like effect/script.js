@@ -10,7 +10,7 @@ img.addEventListener('click', ()=>{
     like.style.transition = 'all cubic-bezier(.57,.91,.63,1.35) 0.3s'
 
     var int1 = setInterval(() => {
-        like.style.transform= 'translate(-50% , -300%)  rotate(-75deg)'
+        like.style.transform= 'translate(-50% , -220%)  rotate(45deg)'
     }, 1000);
      var int2 = setInterval(() => {
         like.style.transform= 'translate(-50% , -50%) scale(0)'
